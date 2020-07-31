@@ -63,4 +63,16 @@
       </plugins>
     </pluginManagement>
   </build>
+   <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.10.84:8082/#admin/repository/repositories:Test-job-Jenkins-Rel/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.10.84:8082/#admin/repository/repositories:Test-job-Jenkins-Snap/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
